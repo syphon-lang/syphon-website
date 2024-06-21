@@ -1,7 +1,12 @@
+import HeroHeader from "@/components/HeroHeader";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
-  return <></>;
+  return (
+    <>
+      <HeroHeader />
+    </>
+  );
 };
 
 export default Home;
